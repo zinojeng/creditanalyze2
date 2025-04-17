@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+
+# Python Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Output files
+分析結果總表.xlsx
+*.xlsx 
