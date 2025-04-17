@@ -1,0 +1,9 @@
+[buildpack]
+name = "apt"
+version = "0"
+
+[phases.build]
+cmds = [
+  "apt-get update",
+  "apt-get install -y tesseract-ocr libtesseract-dev poppler-utils libgl1-mesa-glx libsm6 libxext6 libxrender-dev libglib2.0-0"
+] 
